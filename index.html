@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Cascade</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    li {
+      color: green;
+    }
+
+    ol {
+      counter-reset: item;
+    }
+
+
+    .a-class {
+      color: green;
+    }
+
+    .another-class {
+      color: blue;
+    }
+
+    #an-id {
+      color: green;
+    }
+  </style>
+
+</head>
+
+<div class="outer-box" class="box">
+  <div class="box">
+    <h2 > Different Colors List</h2>
+    <p>Yellow text</p>
+    <div class="inner-box">
+      <p class="yellow"> Salman Siddiqui</p>
+    </div>
+    <p class="color">Red Text</p>
+    <div class="inner-box">
+      <p id="margin" class="red">Salman Siddiqui</p>
+    </div>
+    <p>White Text</p>
+    <div class="inner-box">
+      <p class="white">Salman Siddiqui</p>
+    </div>
+    <p>Green Text</p>
+    <div class="inner-box">
+      <p class="green"> Salman Siddiqui</p>
+    </div>
+  </div>
+
+  </body>
+
+</html>
+
+<body>
+
+  <!----
+  <div id="outer-box" class="box">
+    <div class="box">
+      <p>Yellow Text</p>
+      <div class="inner-box">
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+    <div class="box">
+      <p>Yellow Text</p>
+      <div class="inner-box">
+        <p class="white-text">White Text</p>
+      </div>
+    </div>
+  </div>
